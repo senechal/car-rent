@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Icons should render AcIcon correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      ac.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render AutomaticGear correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      automatic.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render BagIcon correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      bag.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render CarLogo correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-car-logo"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      car.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render DoorIcon correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      doors.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render FuelIcon correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      fuel.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render ManualGear correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      manual.svg
+    </svg>
+  </span>
+</div>
+`;
+
+exports[`Testing Icons should render SeatIcon correctly 1`] = `
+<div>
+  <span
+    class="anticon rac-icon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class=""
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      seats.svg
+    </svg>
+  </span>
+</div>
+`;

@@ -29,4 +29,5 @@ const icons = {
   BagIcon,
   CarLogo,
 };
+
 export default icons;

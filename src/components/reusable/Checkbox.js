@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import PropTypes from 'prop-types';
 const Checkbox = ({ value, children, checked, ...props }) => {
   return (
-    <label {...props} className="rac-checkbox-label" data-checkboxvalue={value}>
+    <label {...props} className="rac-checkbox-label" data-checkboxvalue={value} data-testid="checkbox">
       <input type="checkbox" className="rac-checkbox-input" value={value} checked={checked} readOnly />
       {children}
     </label>
@@ -15,13 +15,13 @@ Checkbox.propTypes = {
 };
 Checkbox.defaultProps = {
   checked: undefined,
-}
+};
 
 const Group = ({ onChange, ...props }) => {
   const handleBubbleClick = useCallback((event) => {
     const { checkboxvalue: value } = event.target.dataset;
     if (value) {
-      onChange(value, event);
+      onChange(value);
     }
   }, [onChange]);
   return <section {...props} onClick={handleBubbleClick} />;

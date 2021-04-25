@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App should render correctly 1`] = `
+<div>
+  <section
+    class="rac-layout"
+  >
+    <header
+      class="rac-layout-header"
+    >
+      <span>
+        Rent-a-car
+      </span>
+       
+      <span
+        class="anticon rac-car-logo"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          width="1em"
+        >
+          car.svg
+        </svg>
+      </span>
+    </header>
+    <section
+      class="rac-layout rac-layout-center"
+    >
+      Search
+    </section>
+    <footer
+      class="rac-layout-footer"
+    >
+      Footer
+    </footer>
+  </section>
+</div>
+`;

@@ -1,0 +1,1460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing VehicleList should render correctly 1`] = `
+<div>
+  <section
+    class="rac-vehicle-list-header"
+  >
+    <section
+      class="rac-vehicle-list-applied-filters"
+    >
+      Filters applied: 
+    </section>
+    <section
+      class="rac-vehicle-list-sort-by"
+    >
+      <label>
+         Sort By: 
+      </label>
+      <select
+        data-testid="sort-select"
+      >
+        <option
+          value="price:asc"
+        >
+          Price: Low to Hight
+        </option>
+        <option
+          value="price:desc"
+        >
+          Price: Hight to Low
+        </option>
+        <option
+          value="seats:asc"
+        >
+          Seats
+        </option>
+        <option
+          value="doors:asc"
+        >
+          Doors
+        </option>
+        <option
+          value="baggageQuantity:asc"
+        >
+          Bags
+        </option>
+      </select>
+    </section>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/HERTZ_1"
+        >
+          <img
+            alt="Kia Rio or similar"
+            src="https://ctimg-fleet.cartrawler.com/kia/rio/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/HERTZ_1"
+          >
+            <strong>
+              Kia Rio
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            2
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            2
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$731.47
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="HERTZ"
+        src="hertz_logo.gif"
+      />
+    </div>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/AVIS_0"
+        >
+          <img
+            alt="Chevrolet Impala or similar"
+            src="https://ctimg-fleet.cartrawler.com/chevrolet/impala/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/AVIS_0"
+          >
+            <strong>
+              Chevrolet Impala
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            4
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            4
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$836.25
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="AVIS"
+        src="avis_logo.gif"
+      />
+    </div>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/ALAMO_1"
+        >
+          <img
+            alt="Chrysler 300 or similar"
+            src="https://ctimg-fleet.cartrawler.com/chrysler/300/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/ALAMO_1"
+          >
+            <strong>
+              Chrysler 300
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            4
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            4
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$851.03
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="ALAMO"
+        src="alamo_logo.gif"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Testing VehicleList should render correctly adding filter 1`] = `
+<div>
+  <section
+    class="rac-vehicle-list-header"
+  >
+    <section
+      class="rac-vehicle-list-applied-filters"
+    >
+      Filters applied: 
+      <span
+        class="rac-tag"
+        data-tagvalue="vendor:AVIS"
+        data-testid="tag"
+      >
+        AVIS
+      </span>
+    </section>
+    <section
+      class="rac-vehicle-list-sort-by"
+    >
+      <label>
+         Sort By: 
+      </label>
+      <select
+        data-testid="sort-select"
+      >
+        <option
+          value="price:asc"
+        >
+          Price: Low to Hight
+        </option>
+        <option
+          value="price:desc"
+        >
+          Price: Hight to Low
+        </option>
+        <option
+          value="seats:asc"
+        >
+          Seats
+        </option>
+        <option
+          value="doors:asc"
+        >
+          Doors
+        </option>
+        <option
+          value="baggageQuantity:asc"
+        >
+          Bags
+        </option>
+      </select>
+    </section>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/AVIS_0"
+        >
+          <img
+            alt="Chevrolet Impala or similar"
+            src="https://ctimg-fleet.cartrawler.com/chevrolet/impala/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/AVIS_0"
+          >
+            <strong>
+              Chevrolet Impala
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            4
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            4
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$836.25
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="AVIS"
+        src="avis_logo.gif"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Testing VehicleList should render correctly changing sortBy 1`] = `
+<div>
+  <section
+    class="rac-vehicle-list-header"
+  >
+    <section
+      class="rac-vehicle-list-applied-filters"
+    >
+      Filters applied: 
+    </section>
+    <section
+      class="rac-vehicle-list-sort-by"
+    >
+      <label>
+         Sort By: 
+      </label>
+      <select
+        data-testid="sort-select"
+      >
+        <option
+          value="price:asc"
+        >
+          Price: Low to Hight
+        </option>
+        <option
+          value="price:desc"
+        >
+          Price: Hight to Low
+        </option>
+        <option
+          value="seats:asc"
+        >
+          Seats
+        </option>
+        <option
+          value="doors:asc"
+        >
+          Doors
+        </option>
+        <option
+          value="baggageQuantity:asc"
+        >
+          Bags
+        </option>
+      </select>
+    </section>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/HERTZ_1"
+        >
+          <img
+            alt="Kia Rio or similar"
+            src="https://ctimg-fleet.cartrawler.com/kia/rio/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/HERTZ_1"
+          >
+            <strong>
+              Kia Rio
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            2
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            2
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$731.47
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="HERTZ"
+        src="hertz_logo.gif"
+      />
+    </div>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/AVIS_0"
+        >
+          <img
+            alt="Chevrolet Impala or similar"
+            src="https://ctimg-fleet.cartrawler.com/chevrolet/impala/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/AVIS_0"
+          >
+            <strong>
+              Chevrolet Impala
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            4
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            4
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$836.25
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="AVIS"
+        src="avis_logo.gif"
+      />
+    </div>
+  </section>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/ALAMO_1"
+        >
+          <img
+            alt="Chrysler 300 or similar"
+            src="https://ctimg-fleet.cartrawler.com/chrysler/300/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/ALAMO_1"
+          >
+            <strong>
+              Chrysler 300
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            4
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            4
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$851.03
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="ALAMO"
+        src="alamo_logo.gif"
+      />
+    </div>
+  </section>
+</div>
+`;

@@ -10,15 +10,12 @@ import { applyFilter, removeFilter } from './actions';
 
 const { Group } = Checkbox;
 
-
 const mapping = (filteredValues) => ({field, value, label}) => {
   const checked = filteredValues.includes(value.toString());
   return (
     <Checkbox value={`${field}:${value}:${label}`} key={label} checked={checked}>{label}</Checkbox>
   )
 };
-
-
 
 const mapVendors = (filteredValues) => value => {
   const checked = filteredValues.includes(value);
@@ -28,7 +25,6 @@ const mapVendors = (filteredValues) => value => {
 };
 
 const SearchFilter = () => {
-
   const { vendors, filters } = useSelector(state => state);
   const dispatch = useDispatch();
 
@@ -36,9 +32,6 @@ const SearchFilter = () => {
 
   const handleFilterSelect = useCallback((filterValue) => {
     const [field, value, label] = filterValue.split(':');
-    console.log({
-      filtersValues, value
-    });
     if (filtersValues.includes(value)) {
       dispatch(removeFilter(field, value));
     } else {

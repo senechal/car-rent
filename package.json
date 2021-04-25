@@ -5,7 +5,7 @@
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
+    "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.15.2",
     "axios": "^0.21.1",
@@ -49,6 +49,12 @@
   "jest": {
     "transformIgnorePatterns": [
       "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^@assets(.*)$": "<rootDir>/src/assets$1",
+      "^@components(.*)$": "<rootDir>/src/components$1",
+      "^@reusable(.*)$": "<rootDir>/src/components/reusable$1",
+      "^@utils(.*)$": "<rootDir>/src/utils$1"
+    }
   }
 }

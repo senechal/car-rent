@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
 import { useState, useCallback } from 'react';
 import CollapsibleDiv from 'react-collapse';
@@ -10,7 +11,7 @@ const Collapse = ({ header, children, ...props }) => {
 
   return (
     <div {...props}>
-      <div className="rac-collapse-header" onClick={toggleCollapse} >
+      <div className="rac-collapse-header" onClick={toggleCollapse} data-testid="collapse">
         {header}
         {
           collapse
@@ -22,7 +23,15 @@ const Collapse = ({ header, children, ...props }) => {
         {children}
       </CollapsibleDiv>
     </div>
-  )
-}
+  );
+};
+
+Collapse.propTypes = {
+  header: PropTypes.string.isRequired,
+  children: PropTypes.any,
+};
+Collapse.defaultProps = {
+  children: '',
+};
 
 export default Collapse;

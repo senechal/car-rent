@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Vehicle should render correctly 1`] = `
+<div>
+  <section
+    class="rac-vehicle"
+  >
+    <div
+      class="rac-vehicle-content"
+    >
+      <div
+        class="rac-vehicle-img"
+      >
+        <a
+          href="/details/HERTZ_1"
+        >
+          <img
+            alt="Kia Rio or similar"
+            src="https://ctimg-fleet.cartrawler.com/kia/rio/primary.png?auto=format&w=600"
+          />
+        </a>
+      </div>
+      <div
+        class="rac-vehicle-info"
+      >
+        <div
+          class="rac-vehicle-make-model"
+        >
+          <a
+            href="/details/HERTZ_1"
+          >
+            <strong>
+              Kia Rio
+            </strong>
+             or 
+            similar
+             (
+            Available
+            )
+          </a>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                seats.svg
+              </svg>
+            </span>
+             
+            5
+             seats 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                doors.svg
+              </svg>
+            </span>
+             
+            2
+             doors 
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                bag.svg
+              </svg>
+            </span>
+             
+            2
+             bags 
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                ac.svg
+              </svg>
+            </span>
+             
+            Air Conditioning
+             
+          </span>
+        </div>
+        <div
+          class="rac-vehicle-features"
+        >
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                fuel.svg
+              </svg>
+            </span>
+             
+            Petrol
+             
+          </span>
+          <span>
+            <span
+              class="anticon rac-icon"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                width="1em"
+              >
+                automatic.svg
+              </svg>
+            </span>
+             Automatic Transmission
+          </span>
+        </div>
+      </div>
+      <div
+        class="rac-vehicle-pricing"
+      >
+        CA$731.47
+      </div>
+    </div>
+    <div
+      class="rac-vehicle-vendor"
+    >
+      <strong>
+        Vendor: 
+      </strong>
+      <img
+        alt="HERTZ"
+        src="hertz_logo.gif"
+      />
+    </div>
+  </section>
+</div>
+`;

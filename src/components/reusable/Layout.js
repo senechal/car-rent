@@ -1,11 +1,11 @@
 import Base from './Base';
 
-const Layout = (props) => <Base as="section" defaultCls="rac-layout" {...props} />;
-const CenterLayout = (props) => <Layout className="rac-layout-center" {...props} />;
-const Header = (props) => <Base as="header" defaultCls="rac-layout-header" {...props}/>;
-const Footer = (props) => <Base as="footer" defaultCls="rac-layout-footer" {...props} />;
-const Sider = (props) => <Base as="aside" defaultCls="rac-layout-sider" {...props} />;
-const Content = (props) => <Base as="main" defaultCls="rac-layout-content" {...props} />;
+export const Layout = (props) => <Base as="section" defaultCls="rac-layout" {...props} />;
+export const CenterLayout = (props) => <Layout className="rac-layout-center" {...props} />;
+export const Header = (props) => <Base as="header" defaultCls="rac-layout-header" {...props}/>;
+export const Footer = (props) => <Base as="footer" defaultCls="rac-layout-footer" {...props} />;
+export const Sider = (props) => <Base as="aside" defaultCls="rac-layout-sider" {...props} />;
+export const Content = (props) => <Base as="main" defaultCls="rac-layout-content" {...props} />;
 
 Layout.CenterLayout = CenterLayout;
 Layout.Header = Header;

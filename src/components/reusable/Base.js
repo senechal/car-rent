@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 const Base = ({className, defaultCls, as: Tag, ...props}) => {
-  return <Tag className={classNames(defaultCls, className)} {...props} />
+  return <Tag className={classNames(defaultCls, className)} {...props} />;
 };
 
 Base.propTypes = {

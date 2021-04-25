@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tag Components Testing Group should render correctlys 1`] = `
+<div>
+  <section>
+    <span
+      class="rac-tag"
+      data-tagvalue="value"
+      data-testid="tag"
+    >
+      content
+    </span>
+  </section>
+</div>
+`;
+
+exports[`Testing Tag Components Testing Tag should render correctly 1`] = `
+<div>
+  <span
+    class="rac-tag"
+    data-tagvalue="value"
+    data-testid="tag"
+  >
+    content
+  </span>
+</div>
+`;

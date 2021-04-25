@@ -15,7 +15,6 @@ const Details = () => {
   const vehicles = useSelector(state => state.vehicles);
   const vehicle = vehicles.find(veh => veh.id === vehId);
 
-
   return vehicles.length !== 0 && vehicle ? (
     <Content className="rac-details-content">
       <div className="rac-details-navigation">

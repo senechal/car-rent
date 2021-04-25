@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Checkbox Components Testing Group should render correctlys 1`] = `
+<div>
+  <section>
+    <label
+      class="rac-checkbox-label"
+      data-checkboxvalue="value"
+      data-testid="checkbox"
+    >
+      <input
+        class="rac-checkbox-input"
+        readonly=""
+        type="checkbox"
+        value="value"
+      />
+      content
+    </label>
+  </section>
+</div>
+`;
+
+exports[`Testing Checkbox Components Testing Tag should render correctly 1`] = `
+<div>
+  <label
+    class="rac-checkbox-label"
+    data-checkboxvalue="value"
+    data-testid="checkbox"
+  >
+    <input
+      class="rac-checkbox-input"
+      readonly=""
+      type="checkbox"
+      value="value"
+    />
+    label
+  </label>
+</div>
+`;
+
+exports[`Testing Checkbox Components Testing Tag should render correctly with checked false 1`] = `
+<div>
+  <label
+    class="rac-checkbox-label"
+    data-checkboxvalue="value"
+    data-testid="checkbox"
+  >
+    <input
+      class="rac-checkbox-input"
+      readonly=""
+      type="checkbox"
+      value="value"
+    />
+    label
+  </label>
+</div>
+`;
+
+exports[`Testing Checkbox Components Testing Tag should render correctly with checked true 1`] = `
+<div>
+  <label
+    class="rac-checkbox-label"
+    data-checkboxvalue="value"
+    data-testid="checkbox"
+  >
+    <input
+      checked=""
+      class="rac-checkbox-input"
+      readonly=""
+      type="checkbox"
+      value="value"
+    />
+    label
+  </label>
+</div>
+`;

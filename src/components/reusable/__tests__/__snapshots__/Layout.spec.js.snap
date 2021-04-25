@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Layout Components should render CenterLayout correctly 1`] = `
+<div>
+  <section
+    class="rac-layout rac-layout-center"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render Content correctly 1`] = `
+<div>
+  <main
+    class="rac-layout-content"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render Footer correctly 1`] = `
+<div>
+  <footer
+    class="rac-layout-footer"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render Header correctly 1`] = `
+<div>
+  <header
+    class="rac-layout-header"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render Layout correctly 1`] = `
+<div>
+  <section
+    class="rac-layout"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render Sider correctly 1`] = `
+<div>
+  <aside
+    class="rac-layout-sider"
+  />
+</div>
+`;
+
+exports[`Testing Layout Components should render default correctly 1`] = `
+<div>
+  <section
+    class="rac-layout"
+  />
+</div>
+`;

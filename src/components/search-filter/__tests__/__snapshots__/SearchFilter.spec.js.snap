@@ -1,0 +1,702 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SearchFilter should render correctly 1`] = `
+<div>
+  <section>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Vendors
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 1:VENDOR 1"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 1:VENDOR 1"
+            />
+            VENDOR 1
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 2:VENDOR 2"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 2:VENDOR 2"
+            />
+            VENDOR 2
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 3:VENDOR 3"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 3:VENDOR 3"
+            />
+            VENDOR 3
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Car Specification
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="hasAirConditioning:true:With Air-conditioning"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="hasAirConditioning:true:With Air-conditioning"
+            />
+            With Air-conditioning
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="transmissionType:Automatic:Automatic Transmission"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="transmissionType:Automatic:Automatic Transmission"
+            />
+            Automatic Transmission
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="transmissionType:Manual:Manual Transmission"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="transmissionType:Manual:Manual Transmission"
+            />
+            Manual Transmission
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="fuelType:Diesel:Diesel"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="fuelType:Diesel:Diesel"
+            />
+            Diesel
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Seats
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:2:2 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:2:2 Seats"
+            />
+            2 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:4:4 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:4:4 Seats"
+            />
+            4 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:5:5 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:5:5 Seats"
+            />
+            5 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:5+:5+ Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:5+:5+ Seats"
+            />
+            5+ Seats
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Luggage
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:2:2 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:2:2 Bags"
+            />
+            2 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:3:3 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:3:3 Bags"
+            />
+            3 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:4:4 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:4:4 Bags"
+            />
+            4 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:5:5 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:5:5 Bags"
+            />
+            5 Bags
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Testing SearchFilter should render correctly with filters 1`] = `
+<div>
+  <section>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Vendors
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 1:VENDOR 1"
+            data-testid="checkbox"
+          >
+            <input
+              checked=""
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 1:VENDOR 1"
+            />
+            VENDOR 1
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 2:VENDOR 2"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 2:VENDOR 2"
+            />
+            VENDOR 2
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="vendor:VENDOR 3:VENDOR 3"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="vendor:VENDOR 3:VENDOR 3"
+            />
+            VENDOR 3
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Car Specification
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="hasAirConditioning:true:With Air-conditioning"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="hasAirConditioning:true:With Air-conditioning"
+            />
+            With Air-conditioning
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="transmissionType:Automatic:Automatic Transmission"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="transmissionType:Automatic:Automatic Transmission"
+            />
+            Automatic Transmission
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="transmissionType:Manual:Manual Transmission"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="transmissionType:Manual:Manual Transmission"
+            />
+            Manual Transmission
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="fuelType:Diesel:Diesel"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="fuelType:Diesel:Diesel"
+            />
+            Diesel
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Seats
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:2:2 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:2:2 Seats"
+            />
+            2 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:4:4 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:4:4 Seats"
+            />
+            4 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:5:5 Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:5:5 Seats"
+            />
+            5 Seats
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="seats:5+:5+ Seats"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="seats:5+:5+ Seats"
+            />
+            5+ Seats
+          </label>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="rac-collapse-header"
+        data-testid="collapse"
+      >
+        Luggage
+        <span
+          aria-label="up"
+          class="anticon anticon-up rac-collapse-indicator"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="up"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        aria-hidden="false"
+        class="rac-collapse-body"
+        style="height: auto; overflow: initial;"
+      >
+        <div
+          class="rac-collapse-content"
+        >
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:2:2 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:2:2 Bags"
+            />
+            2 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:3:3 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:3:3 Bags"
+            />
+            3 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:4:4 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:4:4 Bags"
+            />
+            4 Bags
+          </label>
+          <label
+            class="rac-checkbox-label"
+            data-checkboxvalue="baggageQuantity:5:5 Bags"
+            data-testid="checkbox"
+          >
+            <input
+              class="rac-checkbox-input"
+              readonly=""
+              type="checkbox"
+              value="baggageQuantity:5:5 Bags"
+            />
+            5 Bags
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

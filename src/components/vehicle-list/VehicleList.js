@@ -42,7 +42,6 @@ const sortVehicles = (sortBy, order) => (vehA, vehB) => {
 };
 
 const VehicleList = () => {
-
   const {
     filters,
     vehicles,
@@ -89,9 +88,9 @@ const VehicleList = () => {
             <Tag value={`${field}:${value}`} key={label}>{label}</Tag>
           ))}
         </Group>
-        <section className="rac-vehicle-list-sort-by">
+        <section className="rac-vehicle-list-sort-by" >
           <label> Sort By: </label>
-          <select onChange={handleSortByChange} value={`${sortBy}:${order}`}>
+          <select onChange={handleSortByChange} value={`${sortBy}:${order}`} data-testid="sort-select">
             {SORT_OPTION.map(({label, sortBy:optSortBy, order:optOrder }) => {
               return (
                 <option value={`${optSortBy}:${optOrder}`} key={label}>{label}</option>
