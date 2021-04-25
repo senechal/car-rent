@@ -1,0 +1,304 @@
+:root {
+  --primary-color: #f26522; /* primary color for all components */
+  --link-color: #1890ff; /* link color */
+  --success-color: #52c41a; /* success state color */
+  --warning-color: #faad14; /* warning state color */
+  --error-color: #f5222d; /* error state color */
+  --font-size-base: 14px; /* major text font size */
+  --heading-color: rgba(0, 0, 0, 0.85); /* heading text color */
+  --text-color: rgba(0, 0, 0, 0.65); /* major text color */
+  --text-color-secondary: rgba(0, 0, 0, 0.45); /* secondary text color */
+  --disabled-color: rgba(0, 0, 0, 0.25); /* disable state color */
+  --border-color-base: #d9d9d9; /* major border color */
+  --box-shadow-base: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+  0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05); /* major shadow for layers */
+
+  --layout-background-color: #f0f2f5;
+  --layout-header-bakcgroud: var(--primary-color);
+  --layout-header-text-color: #fff;
+
+  --summary-background-color: #fff;
+  --summary-descriptiion-text-color: var(--heading-color);
+
+  --border-radius-base: 2px; /* major border radius */
+
+  --true: 1;
+  --close: '\00d7';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color);
+}
+
+/*reusable/Layout classes*/
+.rac-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  background-color: var(--layout-background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+
+}
+
+.rac-car-logo {
+  font-size: 32px;
+  margin-left:16px;
+  margin-top: 8px;
+}
+
+.rac-layout-center {
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.rac-layout-header, .rac-layout-footer {
+  flex: 0 0 auto;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+}
+
+.rac-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: var(--layout-header-text-color);
+  line-height: 64px;
+  background: var(--layout-header-bakcgroud);
+}
+
+.rac-layout-footer {
+  padding: 24px 50px;
+  color: var(--heading-color);
+  font-size: 14px;
+  background: var(--layout-background-color);
+}
+
+.rac-layout-sider {
+  height: 100%;
+  width: 200px;
+}
+
+.rac-layout-content {
+  padding: 16px;
+  flex: auto;
+  min-height: 0;
+}
+
+/*reusable/Summary classes*/
+
+.rac-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: var(--summary-background-color);
+  border-radius: var(--border-radius-base);
+}
+
+.rac-summary-section-detail {
+  overflow: hidden;
+}
+
+.rac-summary-section-title {
+  overflow: hidden;
+  color: var(--text-color-secondary);
+  font-weight: 500;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+
+.rac-summary-section-description {
+  font-size: 16px;
+  color: var(--summary-descriptiion-text-color);
+}
+
+.rac-summary-separator {
+  font-size: 32px;
+  color: var(--text-color-secondary);
+}
+
+/*reusable/Checkbox classes*/
+
+.rac-checkbox-label {
+  white-space: nowrap;
+}
+.rac-checkbox-input {
+  pointer-events: none;
+  margin-right: 4px;
+}
+
+/*reusable/Collapse classes*/
+
+
+.rac-collapse-header {
+  padding: 8px;
+  color: rgba(0,0,0,.85);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.rac-collapse-body {
+  transition: height 200ms;
+}
+
+.rac-collapse-content {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rac-collapse-indicator {
+  margin-left: 8px;
+}
+
+.rac-summary, .rac-vehicle-list-header, .rac-vehicle{
+  margin-bottom: 24px;
+}
+
+.rac-tag {
+  border: 0px;
+  margin-left: 8px;
+  /* margin-bottom: 2px; */
+  border-radius: 4px;
+  padding: 2px 20px 2px 8px;
+  background-color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.rac-tag::after {
+  position: absolute;
+  content: var(--close);
+  right: 6px;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.rac-tag:hover::after {
+  font-weight: 700;
+}
+
+.rac-vehicle-list-header {
+  display: flex;
+}
+
+.rac-vehicle-list-applied-filters {
+  display: flex;
+  flex-grow: var(--true);
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.rac-vehicle {
+  display: flex;
+  flex-direction: column;
+  background: var(--summary-background-color);
+  border-radius: var(--border-radius-base);
+}
+
+.rac-vehicle-content {
+  display: flex;
+  border-bottom: 1px solid var(--layout-background-color);
+}
+
+.rac-vehicle-img {
+  padding: 15px 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+.rac-vehicle-img img {
+  max-width: 200px;
+}
+
+.rac-vehicle-make-model {
+  margin-bottom: 8px;
+}
+
+.rac-vehicle-info {
+  flex-grow: var(--true);
+  padding: 8px;
+}
+
+.rac-vehicle-features {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.rac-vehicle-features span {
+  flex-basis: 35%;
+  white-space: nowrap;
+}
+
+.rac-icon {
+  font-size: 16px;
+}
+
+.rac-vehicle-pricing{
+  font-size: 26px;
+  font-weight: 500;
+  padding: 8px 16px;
+  /* flex-basis: 25%; */
+  text-align: right;
+}
+
+.rac-vehicle-vendor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.rac-vehicle-vendor img {
+  margin-left: 8px;
+}
+
+.rac-search-loading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.rac-search-loading-icon {
+  font-size: 48px;
+  color: var(--primary-color);
+}
+
+.rac-details-content {
+  width: 100%;
+  padding: 16px;
+}
+
+.rac-details-navigation{
+  margin-bottom: 8px;;
+}
+
+@media screen and (max-width: 1100px){
+  .rac-layout-center {
+    width: 960px;
+  }
+}
