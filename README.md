@@ -21,7 +21,7 @@ Test developed using jest and @testing-library/react;
 
 Build project ready for production. Project was created using react-create-app.
 
-### Next Steps
+## Next Steps
 
 Create docker file or easy deployment to prod.
 
