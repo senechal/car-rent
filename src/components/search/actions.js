@@ -1,5 +1,5 @@
 import { get } from 'axios';
-import { SEARCH_PENDING, SEARCH_SUCCESS } from '@utils/actionTypes';
+import { SEARCH_PENDING, SEARCH_SUCCESS, SEARCH_ERROR } from '@utils/actionTypes';
 const SEARCH_URL = 'http://www.cartrawler.com/ctabe/cars.json';
 
 const parseVehicle = (item, vendor, index) => {
@@ -81,11 +81,16 @@ const parseData = (data) => {
 export const getSearchData = () => {
   return async dispatch => {
     dispatch({ type: SEARCH_PENDING });
-    const { data: payload } = await get(SEARCH_URL);
-    const [data] = payload;
-    dispatch({
-      type: SEARCH_SUCCESS,
-      ...parseData(data),
-    });
+    try {
+      const { data: payload } = await get(SEARCH_URL);
+      const [data] = payload;
+      dispatch({
+        type: SEARCH_SUCCESS,
+        ...parseData(data),
+      });
+    }
+    catch (err) {
+      dispatch({ type: SEARCH_ERROR, err });
+    }
   };
 };
